@@ -16,7 +16,7 @@ const Transition = React.forwardRef(function Transition(
 
 
 
-export default function CustomDialog({ open,setOpen,children }: any) {
+export default function CustomDialog({ open, setOpen, children }: any) {
     const [fullWidth, setFullWidth] = React.useState(true);
 
     return <>
@@ -33,7 +33,7 @@ export default function CustomDialog({ open,setOpen,children }: any) {
             aria-labelledby="alert-dialog-title"
             aria-describedby="alert-dialog-description"
         >
-            <DialogContent  sx={{minWidth: 350}}>
+            <DialogContent sx={{ minWidth: 350 }}>
                 <DialogContentText component="span" id="alert-dialog-slide-description">
                     {children ?? ""}
                 </DialogContentText>

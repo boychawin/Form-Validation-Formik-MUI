@@ -1,6 +1,5 @@
-import React from 'react'
-import { TextFieldCustom } from '../../components/Formik/FieldCustom'
 
+import { TextFieldCustom } from '../../components/Formik/FieldCustom'
 type Props = {}
 
 export default function Step1({ }: Props) {
@@ -8,10 +7,10 @@ export default function Step1({ }: Props) {
         <>
             <TextFieldCustom
                 type="text"
-                name="field1"
+                name="test"
                 labels={`labels`}
                 placeholder={`placeholder`}
-                size="small" 
+                size="small"
                 fullWidth
                 // multiline
                 rows={1}

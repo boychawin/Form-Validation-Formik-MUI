@@ -1,6 +1,6 @@
 import Grid from '@mui/material/Grid'
 import './App.css'
-import StepFormDialog from './formik/StepDialog'
+import StepFormDialog from './formik/FormFormikDialog'
 
 
 
@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <Grid container >
-        <Grid item xs={12}>
+      <Grid container justifyContent={'center'} alignContent={'center'} sx={{mt:5}} >
+        <Grid item xs={5}>
           <StepFormDialog />
         </Grid>
       </Grid>

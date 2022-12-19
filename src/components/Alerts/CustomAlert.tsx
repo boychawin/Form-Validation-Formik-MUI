@@ -5,7 +5,7 @@ import {
 } from '@mui/material';
 
 
-export default function CustomAlert({ errors, status, error }:any) {
+export default function CustomAlert({ errors, status, error }: any) {
     return (
         <div>
             {/* {JSON.stringify(status)} */}
